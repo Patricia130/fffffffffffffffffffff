@@ -1,6 +1,6 @@
 plugins {
     id 'com.android.application'
-    id 'org.jetbrains.kotlin.android' version '1.8.22'
+    id 'org.jetbrains.kotlin.android' // sem versão aqui
     id 'com.google.gms.google-services' version '4.3.15'
     id 'com.google.firebase.crashlytics' version '2.9.9'
 }
@@ -71,7 +71,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'
     implementation 'androidx.multidex:multidex:2.0.1'
 
-    // Firebase (BOM garante compatibilidade)
+    // Firebase
     implementation platform('com.google.firebase:firebase-bom:33.3.0')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-crashlytics-ktx'
@@ -84,11 +84,11 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
 
-    // Glide (imagens)
+    // Glide
     implementation 'com.github.bumptech.glide:glide:4.16.0'
     kapt 'com.github.bumptech.glide:compiler:4.16.0'
 
-    // Animações (JitPack)
+    // Animações
     implementation 'com.github.ybq:Android-SpinKit:1.4.0'
 
     // Testes
