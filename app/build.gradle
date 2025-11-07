@@ -1,10 +1,24 @@
-// Top-level build.gradle (App Module)
+// build.gradle (App Module)
 
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    id 'com.google.firebase.crashlytics' version '2.9.9'
 }
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.15'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.9'
+    }
+}
+
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
 
 android {
     namespace "com.tochegando.cliente"
@@ -96,6 +110,3 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 }
-
-// Aplicar plugin do Google Services **após o android{}**
-apply plugin: 'com.google.gms.google-services'
