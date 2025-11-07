@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: :sinch-android-rtc:4.11.14+dce5931@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d8add06e87b1d0c9bc754f06fc5b6353/transformed/jetified-sinch-android-rtc-4.11.14+dce5931/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/98baef044368b4eda0fadad9ce0a1f8d/transformed/jetified-sinch-android-rtc-4.11.14+dce5931/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a5855a5f47a77c32315cf2fda2a5afd2/transformed/jetified-sinch-android-rtc-4.11.14+dce5931/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e29fc74c75fe52b8dcf4a29ac3e243cf/transformed/jetified-sinch-android-rtc-4.11.14+dce5931/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e29fc74c75fe52b8dcf4a29ac3e243cf/transformed/jetified-sinch-android-rtc-4.11.14+dce5931/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e29fc74c75fe52b8dcf4a29ac3e243cf/transformed/jetified-sinch-android-rtc-4.11.14+dce5931/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

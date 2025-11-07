@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "704634365825",
+    "project_id": "newtaxi-app-342515",
+    "storage_bucket": "newtaxi-app-342515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704634365825:android:089a513079a4c391",
+        "android_client_info": {
+          "package_name": "com.tochegando.cliente"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_KEY_HERE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

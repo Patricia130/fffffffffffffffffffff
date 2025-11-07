@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.android:facebook-gamingservices:8.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9366375068af1967c749064d7e5b5788/transformed/jetified-facebook-gamingservices-8.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ce681086e9d64177c9d1973238edef2f/transformed/jetified-facebook-gamingservices-8.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fd0c19e95947afb542b8ae650e8f27bd/transformed/jetified-facebook-gamingservices-8.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cc588307e4ca8f1aff4c2b46e2ef34ad/transformed/jetified-facebook-gamingservices-8.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cc588307e4ca8f1aff4c2b46e2ef34ad/transformed/jetified-facebook-gamingservices-8.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cc588307e4ca8f1aff4c2b46e2ef34ad/transformed/jetified-facebook-gamingservices-8.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-gamingservices/8.1.0/4bca70e585036c00872b8b9435dd413fab1dec50/facebook-gamingservices-8.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-gamingservices/8.1.0/ee38fe20cdbfde9c3285d49452b49ec90253d381/facebook-gamingservices-8.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

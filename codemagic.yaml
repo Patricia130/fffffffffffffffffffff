@@ -1,0 +1,44 @@
+workflows:
+  android-native-release:
+    name: Build Android Nativo - Codemagic
+    max_build_duration: 60
+    environment:
+      vars:
+        BUILD_DIR: android
+      java: 17
+
+    cache:
+      cache_paths:
+        - ~/.gradle/caches
+        - ~/.gradle/wrapper
+
+    scripts:
+      - name: 🔍 Localizar Gradlew
+        script: |
+          echo "🔎 Procurando arquivo gradlew..."
+          GRADLEW_PATH=$(find . -type f -name "gradlew" | head -n 1)
+          if [ -z "$GRADLEW_PATH" ]; then
+            echo "❌ Nenhum arquivo gradlew encontrado!"
+            exit 1
+          fi
+          echo "✅ gradlew encontrado em: $GRADLEW_PATH"
+          chmod +x "$GRADLEW_PATH"
+
+      - name: 🧹 Limpar projeto
+        script: |
+          echo "🧹 Executando clean..."
+          ./$(find . -type f -name "gradlew" | head -n 1 | sed 's|^\./||') clean
+
+      - name: 🏗️ Compilar APK Release
+        script: |
+          echo "🏗️ Iniciando build release..."
+          ./$(find . -type f -name "gradlew" | head -n 1 | sed 's|^\./||') assembleRelease
+
+    artifacts:
+      - "**/build/outputs/**/*.apk"
+      - "**/build/outputs/**/*.aab"
+
+    publishing:
+      email:
+        recipients:
+          - seuemail@exemplo.com
